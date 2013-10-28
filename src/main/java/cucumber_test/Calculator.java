@@ -7,7 +7,33 @@ package cucumber_test;
  * Time: 19:00
  */
 public class Calculator {
-    public int add(int a, int b){
-        return a-b;
+    int varA, varB, result;
+
+    public int getVarA() {
+        return varA;
+    }
+
+    public void setVarA(int varA) {
+        this.varA = varA;
+    }
+
+    public int getResult() {
+        return result;
+    }
+
+    public void setResult(int result) {
+        this.result = result;
+    }
+
+    public int getVarB() {
+        return varB;
+    }
+
+    public void setVarB(int varB) {
+        this.varB = varB;
+    }
+
+    public int add() {
+        return result = varA - varB;
     }
 }
